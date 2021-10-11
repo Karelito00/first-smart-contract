@@ -1,0 +1,98 @@
+.mainContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  padding-bottom: 40px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #353535;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.pending-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+h5 {
+  margin: 0px !important;
+  margin-top: 4px !important;
+}
+
+.simple-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 0.4rem;
+  border-color: transparent;
+  background-color: #353535;
+  cursor: pointer;
+  color: white;
+}
+
+.simple-input {
+  width: calc(100% - 120px);
+  height: 25px;
+  border: 2px solid #353535 !important;
+  border-radius: 0.4rem !important;
+}
+
+.simple-input:focus {
+  border: 2px solid #353535 !important;
+  border-radius: 0.4rem !important;
+}
+
+.login-button {
+  width: 120px;
+  height: 30px;
+  border-radius: 0.4rem;
+  color: #353535;
+  border: 1px solid #b1b1b1a1;
+  cursor: pointer;
+  background-color: #f3f3f3;
+}
+
+.wave-container {
+  margin-bottom: 20px;
+  background-color: #353535;
+  padding: 15px 15px 18px 20px;
+  border-radius: 1rem;
+}
+
+.wave-container div {
+  color: white;
+  margin-top: 2px;
+}
